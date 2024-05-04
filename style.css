@@ -228,18 +228,3 @@ p{
   
 
  /* Contacto */
-
-
- /* Span Caution tape */
- span{
-    overflow: hidden;
-    position: absolute;
-    right: -500px;
-    top: 2200px;
-    z-index: 0;
- }
- span img{
-    rotate: 20deg;
-    width: 50%;
-    height: 100%;
- }
