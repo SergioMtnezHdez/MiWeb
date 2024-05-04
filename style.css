@@ -8,13 +8,15 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color: #4f3f3f;
+}
 
 h1, ul, h2, h3{
     text-align: center;
 }
 h2{
     font-size: 2rem;
-    margin-bottom: 3px;
 }
 
 p{
@@ -26,10 +28,11 @@ p{
 /* Secciones */
 
 #Inicio{
-    width: auto;
+    margin: 0 auto;
+    width: 50%;
     height: 100vh;
     padding-top: 100px;
-    background-color: #FFF2D7; 
+    background-color: #FFAC00; 
 }
 #Inicio h1{
     color: #131313;
@@ -51,24 +54,27 @@ p{
     border-radius: 10px;
 }
 #SobreMi{
-    width: auto;
+    margin: 0 auto;
+    width: 50%;
     height: 100vh;
     background-color: rgb(251, 255, 0);
     padding-top: 100px;
-    background-color: #FFF2D7;
+    background-color: #FFAC00;
 }
 
 #MisProyectos{
-    width: auto;
+    margin: 0 auto;
+    width: 50%;
     height: 100vh;
-    background-color: #FFF2D7;
+    background-color: #FFAC00;
     padding-top: 100px
 }
 
 #Contacto{
-    width: auto;
+    margin: 0 auto;
+    width: 50%;
     height: 100vh;
-    background-color: #FFF2D7;
+    background-color: #FFAC00;
     padding-top: 100px
 }
 
@@ -170,7 +176,7 @@ p{
     width: 300px;
     height: 400px;
     padding: 0;
-    margin: 10px;
+    margin: 10px;    
     background-color: whitesmoke;
     overflow: hidden;
     z-index: 1;
@@ -185,8 +191,10 @@ p{
     overflow: hidden;
     text-overflow: ellipsis;
  }
+/* Para dispositivos moviles */
  @media (max-width: 1290px) {
     #Inicio{
+        width: auto;
         min-height: 100vh;
         height: auto;
         margin: 0;
@@ -201,12 +209,14 @@ p{
         margin-top: 50px;
     }
     #SobreMi{
+        width: auto;
         min-height: 100vh;
         height: auto;
         margin: 0;
         padding: 10px;
     }
     #MisProyectos{
+        width: auto;
         min-height: 100vh;
         height: auto;
         margin: 0;
@@ -214,6 +224,7 @@ p{
         
     }
     #Contacto{
+        width: auto;
         min-height: 100vh;
         height: auto;
         margin: 0;
